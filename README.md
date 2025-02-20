@@ -42,3 +42,9 @@ Ejecutar JS
 ```
 node main.js
 ```
+
+## Fonts utilitzades
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length
+
+https://jsonplaceholder.typicode.com/

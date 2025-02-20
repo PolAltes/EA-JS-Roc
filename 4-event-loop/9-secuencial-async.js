@@ -1,4 +1,6 @@
-console.log("Inicio");
+//console.log("Inicio");
+
+export{getUser, getPosts, getComments};
 
 // Función para obtener un usuario de una API
 function getUser(userId) {
@@ -40,9 +42,6 @@ async function fetchOrderDetails() {
   }
 }
 
-console.log("Inicio");
+//console.log("Inicio");
 
-fetchOrderDetails();
-
-
-
+//fetchOrderDetails();

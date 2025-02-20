@@ -1,15 +1,23 @@
 import { students } from "./0-data.js";
 
-let total1 = 0;
+const points = [1,5,2,6,3,8,3];
+
+let total = 0;
 for (let i = 0; i < points.length; i++) {
   total += points[i];
 }
+
+console.log(total);
 
 const total2 = points.reduce((total, point) => {
   return total + point;
 }, 0);
 
+console.log(total2);
+
 const total3 = points.reduce((total, point) => total + point, 0);
+
+console.log(total3);
 
 const totalAges = students.reduce((total, student) => total + student.age, 0);
 
